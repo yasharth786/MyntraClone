@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Baloo+Tamma+2&family=Neonderthaw&family=Nunito:wght@200&family=Roboto:wght@100&family=Ubuntu+Mono&display=swap');
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    position: sticky;
+    top: 0;
+    background: #ffffff;
+    height: 60px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}.left img{
+    width: 50px;
+    height: 34px;
+}
+.container{
+    padding: 0 5vw;
+    margin: 12px 0px;
+}
+.desktop-searchbar{
+    width: 500px;
+    height: 50px;
+}
+nav{
+    font-size: 12px;
+    /* font-weight: bolder; */
+}
+nav ul li{
+    list-style: none;
+    padding: 0 12px;
+
+}
+.section1{
+    background: rgb(248, 245, 245);
+}
+.HomeImg{
+    width: 90vw;
+    margin: 12px 0px;
+}
+footer{
+    padding: 23px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;;
+}
+@media (max-width:1550px){
+    nav ul li{
+        list-style: none;
+        padding: 0 4px;
+        font-size: 10px;
+    }
+    .search{
+        width: 72vw;
+    }
+    .containerHeader{
+        padding: 0 2vw;
+    }
+    header{
+        height: 80px;
+    }
+
+}
+#navFooter .navAccessibility.navFooterLinkCol {
+    line-height: 120%;
+}
+.navFooterLinkCol {
+    color: #333;
+    vertical-align: top;
+}
