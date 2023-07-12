@@ -1,2 +1,3 @@
 # Myntra-clone
-This is a clone of an E-commerce website Myntra. This is frontend of it.
+
+It is a clone to leading E-Commerce Company Myntra . Have included various sections like home page, account, merchandise page,etc. Tech Stack: HTML, CSS, JavaScript
