@@ -1,69 +1,89 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Baloo+Tamma+2&family=Neonderthaw&family=Nunito:wght@200&family=Roboto:wght@100&family=Ubuntu+Mono&display=swap');
-html, body{
-    width: 100%;
-    height: 100%;
-    font-family: 'Roboto', sans-serif;
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 header{
-    position: sticky;
-    top: 0;
-    background: #ffffff;
-    height: 60px;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-}.left img{
-    width: 50px;
-    height: 34px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  position: sticky;
+  top: 0;
+  background:white;
+  height: 80px;
+}
+
+@media(max-width: 1500px){
+  header{
+    height:150px;
+    
+  }
+  nav{
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+
+
+
+.left img{
+  width: 53px;
+  height: 36px;
+  padding-top: 20px;
 }
 .container{
-    padding: 0 5vw;
-    margin: 12px 0px;
+ padding-left:25px;
+ 
 }
-.desktop-searchbar{
-    width: 500px;
-    height: 50px;
+.semibold{
+  font-weight:bolder;
 }
-nav{
-    font-size: 12px;
-    /* font-weight: bolder; */
-}
+
 nav ul li{
-    list-style: none;
-    padding: 0 12px;
-
+  padding:  15px 12px;
+  list-style-type:none;
 }
+
 .section1{
-    background: rgb(248, 245, 245);
-}
-.HomeImg{
-    width: 90vw;
-    margin: 12px 0px;
-}
-footer{
-    padding: 23px;
-    text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;;
-}
-@media (max-width:1550px){
-    nav ul li{
-        list-style: none;
-        padding: 0 4px;
-        font-size: 10px;
-    }
-    .search{
-        width: 72vw;
-    }
-    .containerHeader{
-        padding: 0 2vw;
-    }
-    header{
-        height: 80px;
-    }
+  background-color:#E5E4E2;
+  
+ }
 
+.homeimg{
+  width: 98%;
+  padding-top:10px;
+  border-radius:10px;
+  
 }
-#navFooter .navAccessibility.navFooterLinkCol {
-    line-height: 120%;
+
+.img2{
+  width: 98%;
+  height: 175px;
+   border-radius:10px;
 }
-.navFooterLinkCol {
-    color: #333;
-    vertical-align: top;
+.dealsimg{
+ 
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 240px;
+    
+}
+.section2{
+   background-color:#E5E4E2;
+}
+
+.section3{
+   background-color:#E5E4E2;
+}
+
+.brandsimg{
+  border-radius: 5px;
+  margin: 2 5px;
+  
+
 }
